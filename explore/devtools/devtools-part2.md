@@ -1,0 +1,2 @@
+1. The num1 and num2 are fetched using '.value', which returns a string. When adding strings the operation is performing concatenation, not arithmetic addition. Thus, if num1 is "2" and num2 is "3", the result will be "23" instead of 5
+2. I would fix this bug by converting nums to the numbers before performing the addition. I can do it using parseInt()or parseFloat()
